@@ -1,3 +1,44 @@
 body {
-    background-color: rgb(171, 95, 242);
+    background-color: rgb(213, 186, 239);
+    font-family:Arial, Helvetica, sans-serif;
+    
+} 
+
+/* selector/combinator style */
+body > * {
+    margin: auto;
+    text-align: justify;
+    width: 600px;
+}
+
+p {
+    width: 500px;
+    margin:auto;
+    text-align: justify;
+}
+
+
+/* // <weight>: Use a value from 100 to 900
+// <uniquifier>: Use a unique and descriptive class name */
+
+.roboto-400 {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+
+/* Get rid of width=100px in the img tag! */
+/* Control it via CSS! */
+img {
+    width: 10%;
+}
+
+h1 {
+    width: 90%;
+    float: left;
 }
